@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="program_info/org.prismlauncher.PrismLauncher.logo.svg" alt="Prism Launcher Logo" width="128"/>
+  <img src="program_info/org.prismlauncher.PrismLauncher.svg" alt="Prism Launcher Logo" width="160"/>
 </p>
 
 <h1 align="center">Prism Launcher</h1>
@@ -10,12 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/PrismLauncher/releases/latest">
-    <img src="https://shields.io" alt="Download Latest Release"/>
-  </a>
-  <a href="https://github.com/PrismLauncher/blob/develop/LICENSE">
-    <img src="https://shields.io" alt="License"/>
-  </a>
+  <a href="https://github.com/PrismLauncher/releases/latest"><strong>Download Latest Release</strong></a> •
+  <a href="https://github.com/PrismLauncher/blob/develop/LICENSE"><strong>License (GPL-3.0)</strong></a>
 </p>
 
 ---
@@ -55,10 +51,11 @@ Prism Launcher is a free, open-source launcher for Minecraft (forked from PolyMC
 
 For general compilation steps and dependencies (CMake, Qt 6, JDK 17+), refer to the [Build Instructions](https://prismlauncher.org).
 
-git clone --recursive https://github.com/PrismLauncher.git
-cd PrismLauncher
-cmake -B build -DCMAKE_BUILD_TYPE=Release
-cmake --build build --config Release
+*git clone --recursive https://github.com/PrismLauncher.git*  
+*cd PrismLauncher*  
+*cmake -B build -DCMAKE_BUILD_TYPE=Release*  
+*cmake --build build --config Release*
+
 ---
 
 ## License
